@@ -78,21 +78,21 @@ export function setCharTimeline(
       tl2
         .to(
           camera.position,
-          { z: 75, y: 8.4, duration: 6, delay: 2, ease: "power3.inOut" },
+          { z: 75, y: 8.4, duration: 4, delay: 1, ease: "power3.inOut" },
           0
         )
-        .to(".about-section", { y: "30%", duration: 6 }, 0)
-        .to(".about-section", { opacity: 0, delay: 3, duration: 2 }, 0)
+        .to(".about-section", { y: "30%", duration: 4 }, 0)
+        .to(".about-section", { opacity: 0, delay: 2, duration: 1.5 }, 0)
         .fromTo(
           ".character-model",
           { pointerEvents: "inherit" },
           { pointerEvents: "none", x: "-12%", delay: 2, duration: 5 },
           0
         )
-        .to(character.rotation, { y: 0.92, x: 0.12, delay: 3, duration: 3 }, 0)
-        .to(neckBone!.rotation, { x: 0.6, delay: 2, duration: 3 }, 0)
-        .to(monitor!.material, { opacity: 1, duration: 0.8, delay: 3.2 }, 0)
-        .to(screenLight!.material, { opacity: 1, duration: 0.8, delay: 4.5 }, 0)
+        .to(character.rotation, { y: 0.92, x: 0.12, delay: 1.5, duration: 2 }, 0)
+        .to(neckBone!.rotation, { x: 0.6, delay: 1, duration: 2 }, 0)
+        .to(monitor!.material, { opacity: 1, duration: 0.6, delay: 1.6 }, 0)
+        .to(screenLight!.material, { opacity: 1, duration: 0.6, delay: 2.2 }, 0)
         .fromTo(
           ".what-box-in",
           { display: "none" },

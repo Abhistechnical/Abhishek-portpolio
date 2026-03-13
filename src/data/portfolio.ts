@@ -31,16 +31,34 @@ export const portfolioData = {
   ],
   projects: [
     {
+      title: "DermaMatch AI",
+      category: "AI / Mobile App",
+      tools: "Flutter, Python, FastAPI, Supabase",
+      image: "/images/dermamatch.png",
+    },
+    {
+      title: "LocalBoy Driver App",
+      category: "Logistics / Delivery",
+      tools: "Flutter, Firebase, Node.js",
+      image: "/images/localboy.png",
+    },
+    {
+      title: "Rentz",
+      category: "E-commerce / Rental",
+      tools: "React.js, Tailwind CSS, Node.js",
+      image: "/images/rentz.png",
+    },
+    {
       title: "AI Personal Assistant",
       category: "AI / Automation",
       tools: "Python, Voice Recognition, Windows Automation",
-      image: "/images/Solidx.png", // Keeping placeholders for now
+      image: "/images/Solidx.png",
     },
     {
       title: "Automation Content System",
       category: "Automation / AI Content",
       tools: "AI tools, automation workflows",
-      image: "/images/radix.png", // Keeping placeholders for now
+      image: "/images/radix.png",
     },
   ],
   skills: {
